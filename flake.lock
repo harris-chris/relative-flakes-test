@@ -6,7 +6,7 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "narHash": "sha256-CgnnQcBYMNMaX2cKy/qsS6uzMiCNhJ5l+Vc3smyq+Ec=",
+        "narHash": "sha256-eCuQnxpGHWEg3JGmaStJUnZCQLHYRAsLbNZJqWJIQcc=",
         "path": "./cbonsai",
         "type": "path"
       },

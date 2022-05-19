@@ -21,8 +21,11 @@
           installPhase = ''
             make install PREFIX=$out
           '';
+          # preFixup = ''
+          #   wrapProgram "$out/bin/cbonsai" --add-flags "--live"
+          # '';
           preFixup = ''
-            wrapProgram "$out/bin/cbonsai" --add-flags "--live"
+            $out/bin/cbonsai
           '';
         };
       in rec {
